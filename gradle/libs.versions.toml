@@ -1,11 +1,5 @@
 [versions]
-agp = "9.0.1"
-coreKtx = "1.18.0"
-junit = "4.13.2"
-junitVersion = "1.3.0"
-espressoCore = "3.7.0"
-lifecycleRuntimeKtx = "2.10.0"
-activityCompose = "1.13.0"
+agp = "8.7.2"
 kotlin = "2.0.21"
 composeBom = "2024.09.00"
 mysqlConnector = "8.0.33"
@@ -29,4 +23,6 @@ mysql-connector = { group = "mysql", name = "mysql-connector-java", version.ref 
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
